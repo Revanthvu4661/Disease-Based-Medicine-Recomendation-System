@@ -85,6 +85,23 @@ async function handleGoogleCredential(response) {
     document.getElementById('googleLoginText').textContent = 'Signing in...';
   }
 
+  if (currentRole === 'doctor') {
+    const code = prompt("Please enter the Doctor Access Code to sign in/register with Google:");
+    if (code !== '001') {
+      const errEl = document.getElementById('loginError') || document.getElementById('registerError');
+      if (errEl) {
+        errEl.textContent = 'Invalid Doctor Access Code';
+        errEl.classList.add('show');
+        setTimeout(() => errEl.classList.remove('show'), 5000);
+      }
+      if (btn) {
+        btn.disabled = false;
+        document.getElementById('googleLoginText').textContent = 'Sign in with Google';
+      }
+      return;
+    }
+  }
+
   try {
     const data = await api.post('/auth/google', { credential, role: currentRole });
     localStorage.setItem('medirec_token', data.token);
