@@ -239,7 +239,14 @@ document.getElementById('registerForm').addEventListener('submit', async (e) => 
 
   try {
     const payload = { name, email, password, role: currentRole, age: age || undefined, gender: gender || undefined };
-    if (currentRole === 'doctor' && specialization) payload.specialization = specialization;
+    if (currentRole === 'doctor') {
+      const doctorCode = document.getElementById('regDoctorCode').value;
+      if (doctorCode !== '001') {
+        setLoading('registerBtn', null, false);
+        return showError('registerError', 'Invalid Doctor Access Code');
+      }
+      if (specialization) payload.specialization = specialization;
+    }
 
     const data = await api.post('/auth/register', payload);
     localStorage.setItem('medirec_token', data.token);
