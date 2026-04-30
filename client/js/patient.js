@@ -870,7 +870,29 @@ async function sendChatMessage() {
   appendChatMsg('user', message);
   appendTyping();
 
-  // Simulate AI thinking (feels more natural)
+  try {
+    // Try to get response from real AI backend
+    const res = await fetch('/api/ai/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message })
+    });
+    
+    if (res.ok) {
+      const data = await res.json();
+      removeTyping();
+      appendChatMsg('ai', data.response);
+      document.getElementById('chatSendBtn').disabled = false;
+      return;
+    }
+    
+    // If we get here, the API key might not be set (501) or there was an error
+    console.warn("Real AI backend not available or failed. Falling back to local rules.");
+  } catch (e) {
+    console.warn("Failed to reach AI backend. Falling back to local rules.", e);
+  }
+
+  // Fallback: Simulate AI thinking and use local rule-based logic
   await new Promise(r => setTimeout(r, 900 + Math.random() * 800));
 
   removeTyping();

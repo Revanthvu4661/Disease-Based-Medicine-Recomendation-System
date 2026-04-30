@@ -81,6 +81,7 @@ app.use('/api/notifications', require('./routes/notifications'));
 app.use('/api/appointments', require('./routes/appointments'));
 app.use('/api/ratings', require('./routes/ratings'));
 app.use('/api/messages', require('./routes/messages'));
+app.use('/api/ai', require('./routes/ai'));
 
 // Serve client for all non-API routes
 app.get('*', (req, res) => {
