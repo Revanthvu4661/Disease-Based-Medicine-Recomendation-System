@@ -7757,5 +7757,1296 @@
     "whenToSeeDoctor": "Call emergency services immediately if you or someone else has a severe allergic reaction.",
     "emergencyAlert": true,
     "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "HIV/AIDS",
+    "keywords": [
+      "hiv",
+      "aids",
+      "immunodeficiency"
+    ],
+    "symptoms": [
+      "fatigue",
+      "weight loss",
+      "frequent infections",
+      "swollen lymph nodes"
+    ],
+    "description": "A virus that attacks the body's immune system, specifically the CD4 cells, often leading to AIDS if untreated.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Antiretroviral therapy (ART)",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you suspect exposure to HIV, seek testing immediately.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "ALS (Amyotrophic Lateral Sclerosis)",
+    "keywords": [
+      "als",
+      "lou gehrigs disease"
+    ],
+    "symptoms": [
+      "muscle weakness",
+      "slurred speech",
+      "difficulty swallowing",
+      "muscle cramps"
+    ],
+    "description": "A progressive nervous system disease that affects nerve cells in the brain and spinal cord.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Riluzole",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you experience progressive muscle weakness.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Huntington's Disease",
+    "keywords": [
+      "huntingtons",
+      "chorea",
+      "genetic"
+    ],
+    "symptoms": [
+      "involuntary jerking",
+      "muscle problems",
+      "slow eye movements",
+      "cognitive decline"
+    ],
+    "description": "An inherited disease that causes the progressive breakdown of nerve cells in the brain.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Tetrabenazine",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you have a family history or experience involuntary movements.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Bell's Palsy",
+    "keywords": [
+      "bells palsy",
+      "facial paralysis"
+    ],
+    "symptoms": [
+      "rapid onset of mild weakness to total paralysis on one side of your face",
+      "drooping"
+    ],
+    "description": "A condition that causes a temporary weakness or paralysis of the muscles in the face.",
+    "severity": "mild",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Corticosteroids",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you experience sudden facial weakness or drooping.",
+    "emergencyAlert": false,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Encephalitis",
+    "keywords": [
+      "encephalitis",
+      "brain inflammation"
+    ],
+    "symptoms": [
+      "fever",
+      "headache",
+      "joint pain",
+      "muscle weakness",
+      "confusion",
+      "seizures"
+    ],
+    "description": "Inflammation of the brain, often due to infection.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Antiviral drugs",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "IMMEDIATELY if you experience severe headache, fever, and confusion.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Polio",
+    "keywords": [
+      "polio",
+      "paralysis"
+    ],
+    "symptoms": [
+      "fever",
+      "sore throat",
+      "headache",
+      "vomiting",
+      "fatigue",
+      "back pain",
+      "muscle weakness"
+    ],
+    "description": "A disabling and life-threatening disease caused by the poliovirus.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Pain relievers",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you suspect polio exposure, especially if unvaccinated.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Cholera",
+    "keywords": [
+      "cholera",
+      "watery diarrhea"
+    ],
+    "symptoms": [
+      "severe watery diarrhea",
+      "vomiting",
+      "leg cramps",
+      "rapid dehydration"
+    ],
+    "description": "A bacterial disease causing severe diarrhea and dehydration, usually spread in water.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Oral rehydration salts",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "IMMEDIATELY if you have severe, watery diarrhea.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Yellow Fever",
+    "keywords": [
+      "yellow fever",
+      "mosquito",
+      "jaundice"
+    ],
+    "symptoms": [
+      "fever",
+      "headache",
+      "jaundice",
+      "muscle pain",
+      "nausea",
+      "vomiting"
+    ],
+    "description": "A viral infection spread by a particular species of mosquito.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Supportive care (No specific cure)",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you recently traveled to an endemic area and develop fever.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Zika Virus",
+    "keywords": [
+      "zika",
+      "mosquito",
+      "birth defects"
+    ],
+    "symptoms": [
+      "fever",
+      "rash",
+      "joint pain",
+      "red eyes"
+    ],
+    "description": "A mosquito-borne viral infection that primarily occurs in tropical and subtropical areas.",
+    "severity": "mild",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Rest",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you are pregnant and traveled to a Zika-affected area.",
+    "emergencyAlert": false,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Chikungunya",
+    "keywords": [
+      "chikungunya",
+      "joint pain",
+      "mosquito"
+    ],
+    "symptoms": [
+      "fever",
+      "severe joint pain",
+      "muscle pain",
+      "headache",
+      "nausea",
+      "fatigue"
+    ],
+    "description": "A viral illness transmitted by mosquitoes that causes sudden fever and severe joint pain.",
+    "severity": "moderate",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Rest",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you experience sudden high fever and severe joint pain.",
+    "emergencyAlert": false,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Ebola",
+    "keywords": [
+      "ebola",
+      "hemorrhagic fever"
+    ],
+    "symptoms": [
+      "fever",
+      "severe headache",
+      "muscle pain",
+      "weakness",
+      "fatigue",
+      "diarrhea",
+      "vomiting",
+      "unexplained bleeding"
+    ],
+    "description": "A rare and deadly disease caused by infection with one of the Ebola virus species.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Intravenous fluids",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "IMMEDIATELY if you traveled to an outbreak area and develop symptoms.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Marburg Virus",
+    "keywords": [
+      "marburg",
+      "hemorrhagic fever"
+    ],
+    "symptoms": [
+      "high fever",
+      "severe headache",
+      "severe malaise",
+      "muscle aches",
+      "bleeding"
+    ],
+    "description": "A severe, often fatal hemorrhagic fever.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Supportive hospital care",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "IMMEDIATELY if you suspect exposure.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Leprosy",
+    "keywords": [
+      "leprosy",
+      "hansens disease"
+    ],
+    "symptoms": [
+      "light-colored or red skin patches with reduced sensation",
+      "numbness",
+      "weakness"
+    ],
+    "description": "An infectious disease that causes severe, disfiguring skin sores and nerve damage.",
+    "severity": "moderate",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Multidrug therapy (Antibiotics)",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you notice persistent, numb skin patches.",
+    "emergencyAlert": false,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Sleeping Sickness",
+    "keywords": [
+      "african trypanosomiasis",
+      "tsetse fly"
+    ],
+    "symptoms": [
+      "fever",
+      "severe headaches",
+      "irritability",
+      "extreme fatigue",
+      "swollen lymph nodes"
+    ],
+    "description": "A disease caused by infection with the parasite Trypanosoma brucei.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Antiparasitic drugs",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you traveled to rural Africa and develop a fever and a sore.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Chagas Disease",
+    "keywords": [
+      "chagas",
+      "kissing bug"
+    ],
+    "symptoms": [
+      "swelling at infection site",
+      "fever",
+      "fatigue",
+      "body aches",
+      "rash"
+    ],
+    "description": "An inflammatory, infectious disease caused by the parasite Trypanosoma cruzi.",
+    "severity": "moderate",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Antiparasitic medications",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you traveled to Latin America and suspect a kissing bug bite.",
+    "emergencyAlert": false,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Leishmaniasis",
+    "keywords": [
+      "leishmaniasis",
+      "sandfly"
+    ],
+    "symptoms": [
+      "skin sores",
+      "ulcers",
+      "fever",
+      "weight loss",
+      "enlarged spleen"
+    ],
+    "description": "A disease caused by parasites of the Leishmania type, spread by the bite of certain types of sandflies.",
+    "severity": "moderate",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Antiparasitic drugs",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you develop skin sores after traveling to endemic areas.",
+    "emergencyAlert": false,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Schistosomiasis",
+    "keywords": [
+      "schistosomiasis",
+      "bilharzia",
+      "freshwater"
+    ],
+    "symptoms": [
+      "rash",
+      "itchy skin",
+      "fever",
+      "chills",
+      "cough",
+      "muscle aches"
+    ],
+    "description": "A disease caused by parasitic worms found in fresh water in certain subtropical and tropical regions.",
+    "severity": "moderate",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Praziquantel",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you develop an itchy rash after swimming in freshwater.",
+    "emergencyAlert": false,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Cystic Fibrosis",
+    "keywords": [
+      "cystic fibrosis",
+      "cf",
+      "lung mucus"
+    ],
+    "symptoms": [
+      "persistent cough with thick mucus",
+      "wheezing",
+      "breathlessness",
+      "repeated lung infections"
+    ],
+    "description": "An inherited life-threatening disorder that damages the lungs and digestive system.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Mucus-thinning drugs",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If your child has a persistent cough and salty-tasting skin.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Sickle Cell Anemia",
+    "keywords": [
+      "sickle cell",
+      "blood disorder",
+      "pain crisis"
+    ],
+    "symptoms": [
+      "episodes of pain",
+      "swelling of hands and feet",
+      "frequent infections",
+      "delayed growth"
+    ],
+    "description": "An inherited group of disorders where red blood cells contort into a sickle shape.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Hydroxyurea",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you or your child experiences unexplained severe pain episodes.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Hemophilia",
+    "keywords": [
+      "hemophilia",
+      "bleeding disorder"
+    ],
+    "symptoms": [
+      "unexplained and excessive bleeding",
+      "many large or deep bruises",
+      "unusual bleeding after vaccinations"
+    ],
+    "description": "A rare disorder in which your blood doesn't clot normally because it lacks sufficient blood-clotting proteins.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Clotting factor replacement therapy",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you experience excessive or prolonged bleeding.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Thalassemia",
+    "keywords": [
+      "thalassemia",
+      "anemia",
+      "blood disorder"
+    ],
+    "symptoms": [
+      "fatigue",
+      "weakness",
+      "pale or yellowish skin",
+      "facial bone deformities",
+      "slow growth"
+    ],
+    "description": "An inherited blood disorder characterized by less oxygen-carrying protein (hemoglobin) and fewer red blood cells.",
+    "severity": "moderate",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Blood transfusions",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If your child has signs of anemia such as fatigue and paleness.",
+    "emergencyAlert": false,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Duchenne Muscular Dystrophy",
+    "keywords": [
+      "dmd",
+      "muscular dystrophy"
+    ],
+    "symptoms": [
+      "frequent falls",
+      "difficulty getting up",
+      "waddling gait",
+      "learning disabilities"
+    ],
+    "description": "A severe type of muscular dystrophy that primarily affects boys.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Corticosteroids",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If your child shows signs of muscle weakness or delayed motor milestones.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Tay-Sachs Disease",
+    "keywords": [
+      "tay sachs",
+      "genetic disorder"
+    ],
+    "symptoms": [
+      "loss of motor skills",
+      "exaggerated reactions to loud noises",
+      "seizures",
+      "vision and hearing loss"
+    ],
+    "description": "A rare, inherited disorder that destroys nerve cells in the brain and spinal cord.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Supportive care",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If your baby stops reaching developmental milestones.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Marfan Syndrome",
+    "keywords": [
+      "marfan",
+      "connective tissue",
+      "tall"
+    ],
+    "symptoms": [
+      "tall and slender build",
+      "disproportionately long arms/legs",
+      "flat feet",
+      "curved spine"
+    ],
+    "description": "An inherited disorder that affects connective tissue, heavily impacting the heart, eyes, blood vessels, and skeleton.",
+    "severity": "moderate",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Blood pressure lowering drugs",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you have a family history and show physical traits.",
+    "emergencyAlert": false,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Turner Syndrome",
+    "keywords": [
+      "turner syndrome",
+      "chromosomal"
+    ],
+    "symptoms": [
+      "short stature",
+      "delayed puberty",
+      "infertility",
+      "heart defects"
+    ],
+    "description": "A chromosomal condition that affects development in females.",
+    "severity": "moderate",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Growth hormone therapy",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If your daughter is not growing at a normal rate or doesn't start puberty.",
+    "emergencyAlert": false,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Klinefelter Syndrome",
+    "keywords": [
+      "klinefelter",
+      "chromosomal",
+      "XXY"
+    ],
+    "symptoms": [
+      "delayed puberty",
+      "taller than average height",
+      "reduced facial and body hair",
+      "infertility"
+    ],
+    "description": "A genetic condition in which a boy is born with an extra copy of the X chromosome.",
+    "severity": "moderate",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Testosterone replacement therapy",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If a boy's puberty is delayed.",
+    "emergencyAlert": false,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Down Syndrome",
+    "keywords": [
+      "down syndrome",
+      "trisomy 21"
+    ],
+    "symptoms": [
+      "distinct facial appearance",
+      "intellectual disability",
+      "developmental delays"
+    ],
+    "description": "A genetic disorder caused when abnormal cell division results in an extra full or partial copy of chromosome 21.",
+    "severity": "moderate",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Special education",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "Often diagnosed prenatally or at birth.",
+    "emergencyAlert": false,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Lupus (SLE)",
+    "keywords": [
+      "lupus",
+      "sle",
+      "autoimmune",
+      "butterfly rash"
+    ],
+    "symptoms": [
+      "fatigue",
+      "fever",
+      "joint pain",
+      "butterfly-shaped rash on the face",
+      "skin lesions"
+    ],
+    "description": "A systemic autoimmune disease that occurs when your body's immune system attacks your own tissues and organs.",
+    "severity": "moderate",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "NSAIDs",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you develop an unexplained rash, ongoing fever, or persistent aching.",
+    "emergencyAlert": false,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Sjogren's Syndrome",
+    "keywords": [
+      "sjogrens",
+      "dry eyes",
+      "dry mouth"
+    ],
+    "symptoms": [
+      "dry eyes",
+      "dry mouth",
+      "joint pain",
+      "swelling",
+      "fatigue"
+    ],
+    "description": "A disorder of your immune system identified by its two most common symptoms — dry eyes and a dry mouth.",
+    "severity": "moderate",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Artificial tears",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you have persistent dry eyes and mouth.",
+    "emergencyAlert": false,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Ankylosing Spondylitis",
+    "keywords": [
+      "ankylosing spondylitis",
+      "back pain",
+      "spine"
+    ],
+    "symptoms": [
+      "lower back pain and stiffness",
+      "pain in buttocks",
+      "fatigue",
+      "joint swelling"
+    ],
+    "description": "An inflammatory disease that, over time, can cause some of the small bones in your spine (vertebrae) to fuse.",
+    "severity": "moderate",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "NSAIDs",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you have lower back pain that improves with exercise but worsens with rest.",
+    "emergencyAlert": false,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Vasculitis",
+    "keywords": [
+      "vasculitis",
+      "blood vessel inflammation"
+    ],
+    "symptoms": [
+      "fever",
+      "headache",
+      "fatigue",
+      "weight loss",
+      "generalized aches and pains"
+    ],
+    "description": "An inflammation of the blood vessels. It causes changes in the blood vessel walls, including thickening, weakening, narrowing or scarring.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Corticosteroids",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you have unexplained fever, fatigue, and muscle/joint pain.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Raynaud's Disease",
+    "keywords": [
+      "raynauds",
+      "cold fingers"
+    ],
+    "symptoms": [
+      "cold fingers or toes",
+      "color changes in your skin in response to cold or stress",
+      "numb prickly feeling"
+    ],
+    "description": "A condition that causes some areas of your body — such as your fingers and toes — to feel numb and cold in response to cold temperatures or stress.",
+    "severity": "mild",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Calcium channel blockers",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "If you have a history of severe Raynaud's and develop a sore on one of your fingers or toes.",
+    "emergencyAlert": false,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Deep Vein Thrombosis (DVT)",
+    "keywords": [
+      "dvt",
+      "blood clot",
+      "leg swelling"
+    ],
+    "symptoms": [
+      "swelling in one leg",
+      "pain or tenderness in leg",
+      "red or discolored skin on leg",
+      "feeling of warmth in leg"
+    ],
+    "description": "A medical condition that occurs when a blood clot forms in a deep vein.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Blood thinners (Anticoagulants)",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "IMMEDIATELY if you have leg swelling, pain, and redness.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Pulmonary Embolism",
+    "keywords": [
+      "pulmonary embolism",
+      "pe",
+      "blood clot lung"
+    ],
+    "symptoms": [
+      "sudden shortness of breath",
+      "chest pain that worsens with breathing",
+      "cough containing blood"
+    ],
+    "description": "A blockage in one of the pulmonary arteries in your lungs.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Blood thinners",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "IMMEDIATELY if you experience sudden unexplained shortness of breath and chest pain.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Aneurysm",
+    "keywords": [
+      "aneurysm",
+      "bulging vessel"
+    ],
+    "symptoms": [
+      "often no symptoms until rupture; if ruptured: sudden severe headache",
+      "pain in abdomen or back"
+    ],
+    "description": "A bulge or ballooning in the wall of an artery.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Surgical clipping",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "IMMEDIATELY if you have a sudden, extremely severe headache or severe abdominal pain.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Transient Ischemic Attack (TIA)",
+    "keywords": [
+      "tia",
+      "mini stroke"
+    ],
+    "symptoms": [
+      "brief episodes of weakness",
+      "numbness",
+      "or paralysis on one side of body",
+      "slurred speech"
+    ],
+    "description": "A temporary period of symptoms similar to those of a stroke. A TIA usually lasts only a few minutes and doesn't cause permanent damage.",
+    "severity": "severe",
+    "precautions": [
+      "Consult a specialist immediately",
+      "Do not self-medicate",
+      "Follow prescribed treatment plans carefully",
+      "Maintain a healthy lifestyle to support immune function"
+    ],
+    "medicines": [
+      {
+        "name": "Anti-platelet drugs",
+        "type": "Prescription",
+        "adultDose": "Strictly as prescribed by a specialist",
+        "childDose": "Strictly as prescribed by a specialist",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "As prescribed by doctor"
+      }
+    ],
+    "whenToSeeDoctor": "IMMEDIATELY call emergency services, as it's a warning sign for a future stroke.",
+    "emergencyAlert": true,
+    "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
   }
 ]
