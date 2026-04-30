@@ -27,6 +27,16 @@ function closeModal(modalId) {
   if (modal) modal.classList.add('hidden');
 }
 
+// ===== SIDEBAR TOGGLE =====
+function toggleSidebar() {
+  const sidebar = document.querySelector('.sidebar');
+  const overlay = document.querySelector('.sidebar-overlay');
+  if (sidebar && overlay) {
+    sidebar.classList.toggle('show');
+    overlay.classList.toggle('show');
+  }
+}
+
 // ===== SECTION NAVIGATION =====
 function showSection(name, el) {
   document.querySelectorAll('.content-section').forEach(s => s.classList.add('hidden'));

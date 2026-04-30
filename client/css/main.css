@@ -1021,8 +1021,42 @@ body.light .brand-text h1 { color: var(--text); }
 ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
 
 /* ===== RESPONSIVE ===== */
+.mobile-menu-btn {
+  display: none;
+  background: transparent;
+  border: none;
+  color: var(--text);
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 4px;
+  margin-right: 8px;
+}
+
+/* Overlay for mobile sidebar */
+.sidebar-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+  display: none;
+}
+.sidebar-overlay.show {
+  display: block;
+}
+
 @media (max-width: 768px) {
-  .sidebar { display: none; }
+  .mobile-menu-btn { display: block; }
+  .sidebar {
+    position: fixed;
+    top: 64px;
+    left: -260px;
+    height: calc(100vh - 64px);
+    width: 260px;
+    z-index: 999;
+    transition: left 0.3s ease;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.3);
+  }
+  .sidebar.show { left: 0; display: flex !important; }
   .main-content { padding: 16px; }
   .form-row { grid-template-columns: 1fr; }
   .glass-card { padding: 24px 20px; }

@@ -16,6 +16,9 @@
 <!-- Navbar -->
 <nav class="navbar">
   <div class="nav-brand">
+    <button class="mobile-menu-btn" onclick="toggleSidebar()">
+      <i class="fas fa-bars"></i>
+    </button>
     <i class="fas fa-heartbeat pulse-icon"></i>
     <span>MediRec</span>
   </div>
@@ -51,6 +54,8 @@
 
 <!-- Main Layout -->
 <div class="dashboard-layout">
+  <!-- Sidebar Overlay -->
+  <div class="sidebar-overlay" onclick="toggleSidebar()"></div>
 
   <!-- Sidebar -->
   <aside class="sidebar">

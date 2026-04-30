@@ -34,6 +34,16 @@ function showSection(name, el) {
   if (name === 'deleted') loadDeletedRecords();
 }
 
+// ===== SIDEBAR TOGGLE =====
+function toggleSidebar() {
+  const sidebar = document.querySelector('.sidebar');
+  const overlay = document.querySelector('.sidebar-overlay');
+  if (sidebar && overlay) {
+    sidebar.classList.toggle('show');
+    overlay.classList.toggle('show');
+  }
+}
+
 // ===== STATS =====
 async function loadStats() {
   try {
