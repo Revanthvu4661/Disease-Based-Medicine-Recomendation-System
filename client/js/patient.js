@@ -278,6 +278,21 @@ async function searchDisease() {
   }
 }
 
+// ===== QUICK SEARCH =====
+function quickSearchDisease(diseaseName) {
+  // Navigate to the search tab
+  showSection('search', document.querySelector('[data-section="search"]'));
+  
+  // Fill the input
+  document.getElementById('diseaseInput').value = diseaseName;
+  
+  // Scroll to top
+  document.querySelector('.main-content').scrollTop = 0;
+  
+  // Trigger search
+  searchDisease();
+}
+
 // ===== RENDER RESULTS =====
 function renderResults(d, age, weight, gender) {
   const isChild = age && age < 18;
