@@ -19,8 +19,28 @@ const io = new Server(server, {
   cors: { origin: '*', methods: ['GET', 'POST'] }
 });
 
-// Security middleware
-app.use(helmet());
+// Security middleware — configure CSP to allow inline handlers and external CDNs
+app.use(helmet({
+  contentSecurityPolicy: {
+    directives: {
+      defaultSrc:  ["'self'"],
+      scriptSrc:   ["'self'", "'unsafe-inline'", "'unsafe-eval'",
+                    "https://accounts.google.com",
+                    "https://cdnjs.cloudflare.com"],
+      styleSrc:    ["'self'", "'unsafe-inline'",
+                    "https://fonts.googleapis.com",
+                    "https://cdnjs.cloudflare.com"],
+      fontSrc:     ["'self'",
+                    "https://fonts.gstatic.com",
+                    "https://cdnjs.cloudflare.com"],
+      imgSrc:      ["'self'", "data:", "https:", "blob:"],
+      mediaSrc:    ["'self'", "blob:", "data:"],
+      connectSrc:  ["'self'", "https://accounts.google.com"],
+      frameSrc:    ["https://accounts.google.com"],
+      objectSrc:   ["'none'"],
+    },
+  },
+}));
 
 // Logging
 app.use(morgan('combined'));
