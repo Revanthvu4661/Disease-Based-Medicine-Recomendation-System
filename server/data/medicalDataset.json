@@ -9048,5 +9048,490 @@
     "whenToSeeDoctor": "IMMEDIATELY call emergency services, as it's a warning sign for a future stroke.",
     "emergencyAlert": true,
     "dietAdvice": "Follow a nutritious diet tailored to your condition by a registered dietitian."
+  },
+  {
+    "disease": "Loose Motions (Diarrhea)",
+    "keywords": [
+      "loose motions",
+      "diarrhea",
+      "watery stool",
+      "frequent stool"
+    ],
+    "symptoms": [
+      "watery stools",
+      "frequent bowel movements",
+      "abdominal cramps",
+      "dehydration"
+    ],
+    "description": "A common condition involving frequent, loose, or watery bowel movements, often caused by infections or contaminated food.",
+    "severity": "mild",
+    "precautions": [
+      "Drink plenty of water and ORS to prevent dehydration",
+      "Avoid spicy, oily, and heavy foods",
+      "Eat light, easy-to-digest food (like bananas, rice, toast)",
+      "Wash hands thoroughly before eating and after using the restroom"
+    ],
+    "medicines": [
+      {
+        "name": "ORS (Oral Rehydration Solution)",
+        "type": "OTC / Prescription",
+        "adultDose": "As directed on the label or by a doctor",
+        "childDose": "Consult a pediatrician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Until symptoms resolve"
+      }
+    ],
+    "whenToSeeDoctor": "If diarrhea lasts more than 2 days or you have signs of severe dehydration.",
+    "emergencyAlert": false,
+    "dietAdvice": "BRAT diet (Bananas, Rice, Applesauce, Toast). Avoid dairy, caffeine, and spicy foods during flare-ups."
+  },
+  {
+    "disease": "Amoebic Dysentery (Amoebiasis)",
+    "keywords": [
+      "dysentery",
+      "blood in stool",
+      "amoebiasis",
+      "motions with blood"
+    ],
+    "symptoms": [
+      "loose stools with blood and mucus",
+      "severe stomach cramps",
+      "fever",
+      "weight loss"
+    ],
+    "description": "An intestinal infection caused by a microscopic parasite, spreading through contaminated food or water.",
+    "severity": "moderate",
+    "precautions": [
+      "Drink plenty of water and ORS to prevent dehydration",
+      "Avoid spicy, oily, and heavy foods",
+      "Eat light, easy-to-digest food (like bananas, rice, toast)",
+      "Wash hands thoroughly before eating and after using the restroom"
+    ],
+    "medicines": [
+      {
+        "name": "Metronidazole (Antibiotic/Antiparasitic)",
+        "type": "OTC / Prescription",
+        "adultDose": "As directed on the label or by a doctor",
+        "childDose": "Consult a pediatrician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Until symptoms resolve"
+      }
+    ],
+    "whenToSeeDoctor": "If you notice blood or mucus in your stool.",
+    "emergencyAlert": false,
+    "dietAdvice": "BRAT diet (Bananas, Rice, Applesauce, Toast). Avoid dairy, caffeine, and spicy foods during flare-ups."
+  },
+  {
+    "disease": "Constipation",
+    "keywords": [
+      "constipation",
+      "hard stool",
+      "difficulty passing stool",
+      "no motions"
+    ],
+    "symptoms": [
+      "infrequent bowel movements",
+      "hard or lumpy stools",
+      "straining",
+      "feeling blocked"
+    ],
+    "description": "A condition where bowel movements become less frequent and difficult to pass.",
+    "severity": "mild",
+    "precautions": [
+      "Drink plenty of water and ORS to prevent dehydration",
+      "Avoid spicy, oily, and heavy foods",
+      "Eat light, easy-to-digest food (like bananas, rice, toast)",
+      "Wash hands thoroughly before eating and after using the restroom"
+    ],
+    "medicines": [
+      {
+        "name": "Laxatives (e.g.",
+        "type": "OTC / Prescription",
+        "adultDose": "As directed on the label or by a doctor",
+        "childDose": "Consult a pediatrician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Until symptoms resolve"
+      }
+    ],
+    "whenToSeeDoctor": "If constipation is new, severe, or accompanied by blood in the stool.",
+    "emergencyAlert": false,
+    "dietAdvice": "BRAT diet (Bananas, Rice, Applesauce, Toast). Avoid dairy, caffeine, and spicy foods during flare-ups."
+  },
+  {
+    "disease": "Hemorrhoids (Piles)",
+    "keywords": [
+      "piles",
+      "hemorrhoids",
+      "bleeding during motions",
+      "anal pain"
+    ],
+    "symptoms": [
+      "painless bleeding during bowel movements",
+      "itching or irritation in anal region",
+      "pain",
+      "swelling around anus"
+    ],
+    "description": "Swollen veins in the lowest part of the rectum and anus, often causing bleeding during motions.",
+    "severity": "moderate",
+    "precautions": [
+      "Drink plenty of water and ORS to prevent dehydration",
+      "Avoid spicy, oily, and heavy foods",
+      "Eat light, easy-to-digest food (like bananas, rice, toast)",
+      "Wash hands thoroughly before eating and after using the restroom"
+    ],
+    "medicines": [
+      {
+        "name": "Topical creams (Hydrocortisone)",
+        "type": "OTC / Prescription",
+        "adultDose": "As directed on the label or by a doctor",
+        "childDose": "Consult a pediatrician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Until symptoms resolve"
+      }
+    ],
+    "whenToSeeDoctor": "If hemorrhoids don't improve after a week of home care, or if they bleed frequently.",
+    "emergencyAlert": false,
+    "dietAdvice": "BRAT diet (Bananas, Rice, Applesauce, Toast). Avoid dairy, caffeine, and spicy foods during flare-ups."
+  },
+  {
+    "disease": "Anal Fissure",
+    "keywords": [
+      "anal fissure",
+      "pain during motions",
+      "painful stool"
+    ],
+    "symptoms": [
+      "severe pain during bowel movements",
+      "bright red blood on stool or toilet paper",
+      "visible crack in skin"
+    ],
+    "description": "A small tear in the thin, moist tissue (mucosa) that lines the anus.",
+    "severity": "moderate",
+    "precautions": [
+      "Drink plenty of water and ORS to prevent dehydration",
+      "Avoid spicy, oily, and heavy foods",
+      "Eat light, easy-to-digest food (like bananas, rice, toast)",
+      "Wash hands thoroughly before eating and after using the restroom"
+    ],
+    "medicines": [
+      {
+        "name": "Stool softeners",
+        "type": "OTC / Prescription",
+        "adultDose": "As directed on the label or by a doctor",
+        "childDose": "Consult a pediatrician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Until symptoms resolve"
+      }
+    ],
+    "whenToSeeDoctor": "If pain is severe or bleeding is substantial.",
+    "emergencyAlert": false,
+    "dietAdvice": "BRAT diet (Bananas, Rice, Applesauce, Toast). Avoid dairy, caffeine, and spicy foods during flare-ups."
+  },
+  {
+    "disease": "Irritable Bowel Syndrome (IBS)",
+    "keywords": [
+      "ibs",
+      "irritable bowel",
+      "frequent motions",
+      "stomach cramps"
+    ],
+    "symptoms": [
+      "cramping",
+      "abdominal pain",
+      "bloating",
+      "gas",
+      "diarrhea",
+      "constipation (or both alternating)"
+    ],
+    "description": "A common disorder that affects the large intestine, causing changes in bowel habits without any visible damage.",
+    "severity": "moderate",
+    "precautions": [
+      "Drink plenty of water and ORS to prevent dehydration",
+      "Avoid spicy, oily, and heavy foods",
+      "Eat light, easy-to-digest food (like bananas, rice, toast)",
+      "Wash hands thoroughly before eating and after using the restroom"
+    ],
+    "medicines": [
+      {
+        "name": "Antispasmodics",
+        "type": "OTC / Prescription",
+        "adultDose": "As directed on the label or by a doctor",
+        "childDose": "Consult a pediatrician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Until symptoms resolve"
+      }
+    ],
+    "whenToSeeDoctor": "If you have a persistent change in bowel habits or other signs of IBS.",
+    "emergencyAlert": false,
+    "dietAdvice": "BRAT diet (Bananas, Rice, Applesauce, Toast). Avoid dairy, caffeine, and spicy foods during flare-ups."
+  },
+  {
+    "disease": "Indigestion (Dyspepsia)",
+    "keywords": [
+      "indigestion",
+      "dyspepsia",
+      "upset stomach",
+      "gas"
+    ],
+    "symptoms": [
+      "early fullness during a meal",
+      "uncomfortable fullness after a meal",
+      "mild nausea",
+      "bloating"
+    ],
+    "description": "Discomfort in the upper abdomen, often occurring after eating.",
+    "severity": "mild",
+    "precautions": [
+      "Drink plenty of water and ORS to prevent dehydration",
+      "Avoid spicy, oily, and heavy foods",
+      "Eat light, easy-to-digest food (like bananas, rice, toast)",
+      "Wash hands thoroughly before eating and after using the restroom"
+    ],
+    "medicines": [
+      {
+        "name": "Antacids",
+        "type": "OTC / Prescription",
+        "adultDose": "As directed on the label or by a doctor",
+        "childDose": "Consult a pediatrician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Until symptoms resolve"
+      }
+    ],
+    "whenToSeeDoctor": "If indigestion lasts for more than two weeks.",
+    "emergencyAlert": false,
+    "dietAdvice": "BRAT diet (Bananas, Rice, Applesauce, Toast). Avoid dairy, caffeine, and spicy foods during flare-ups."
+  },
+  {
+    "disease": "Intestinal Worms",
+    "keywords": [
+      "worms",
+      "intestinal parasites",
+      "pinworms",
+      "tapeworms",
+      "stomach worms"
+    ],
+    "symptoms": [
+      "abdominal pain",
+      "diarrhea",
+      "nausea",
+      "vomiting",
+      "gas",
+      "fatigue",
+      "unexplained weight loss"
+    ],
+    "description": "Parasites that populate the gastro-intestinal tract in humans, often due to poor hygiene or undercooked food.",
+    "severity": "moderate",
+    "precautions": [
+      "Drink plenty of water and ORS to prevent dehydration",
+      "Avoid spicy, oily, and heavy foods",
+      "Eat light, easy-to-digest food (like bananas, rice, toast)",
+      "Wash hands thoroughly before eating and after using the restroom"
+    ],
+    "medicines": [
+      {
+        "name": "Albendazole",
+        "type": "OTC / Prescription",
+        "adultDose": "As directed on the label or by a doctor",
+        "childDose": "Consult a pediatrician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Until symptoms resolve"
+      }
+    ],
+    "whenToSeeDoctor": "If you notice worms in your stool or experience unexplained weight loss.",
+    "emergencyAlert": false,
+    "dietAdvice": "BRAT diet (Bananas, Rice, Applesauce, Toast). Avoid dairy, caffeine, and spicy foods during flare-ups."
+  },
+  {
+    "disease": "Rotavirus Infection",
+    "keywords": [
+      "rotavirus",
+      "child diarrhea",
+      "severe motions"
+    ],
+    "symptoms": [
+      "severe watery diarrhea",
+      "vomiting",
+      "fever",
+      "abdominal pain",
+      "severe dehydration in children"
+    ],
+    "description": "A very contagious virus that causes diarrhea. Before a vaccine was developed, it was the most common cause of diarrhea in infants.",
+    "severity": "severe",
+    "precautions": [
+      "Drink plenty of water and ORS to prevent dehydration",
+      "Avoid spicy, oily, and heavy foods",
+      "Eat light, easy-to-digest food (like bananas, rice, toast)",
+      "Wash hands thoroughly before eating and after using the restroom"
+    ],
+    "medicines": [
+      {
+        "name": "ORS",
+        "type": "OTC / Prescription",
+        "adultDose": "As directed on the label or by a doctor",
+        "childDose": "Consult a pediatrician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Until symptoms resolve"
+      }
+    ],
+    "whenToSeeDoctor": "If your child has black/tarry stool, bloody diarrhea, or is lethargic.",
+    "emergencyAlert": true,
+    "dietAdvice": "BRAT diet (Bananas, Rice, Applesauce, Toast). Avoid dairy, caffeine, and spicy foods during flare-ups."
+  },
+  {
+    "disease": "Stomach Bug (Norovirus)",
+    "keywords": [
+      "stomach bug",
+      "norovirus",
+      "viral gastroenteritis",
+      "vomiting"
+    ],
+    "symptoms": [
+      "nausea",
+      "vomiting",
+      "watery diarrhea",
+      "abdominal cramps",
+      "low-grade fever"
+    ],
+    "description": "A highly contagious virus that causes vomiting and diarrhea. Often called the 'winter vomiting bug'.",
+    "severity": "moderate",
+    "precautions": [
+      "Drink plenty of water and ORS to prevent dehydration",
+      "Avoid spicy, oily, and heavy foods",
+      "Eat light, easy-to-digest food (like bananas, rice, toast)",
+      "Wash hands thoroughly before eating and after using the restroom"
+    ],
+    "medicines": [
+      {
+        "name": "ORS",
+        "type": "OTC / Prescription",
+        "adultDose": "As directed on the label or by a doctor",
+        "childDose": "Consult a pediatrician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Until symptoms resolve"
+      }
+    ],
+    "whenToSeeDoctor": "If you cannot keep liquids down for 24 hours.",
+    "emergencyAlert": false,
+    "dietAdvice": "BRAT diet (Bananas, Rice, Applesauce, Toast). Avoid dairy, caffeine, and spicy foods during flare-ups."
+  },
+  {
+    "disease": "Giardiasis",
+    "keywords": [
+      "giardia",
+      "prolonged diarrhea",
+      "greasy stool"
+    ],
+    "symptoms": [
+      "watery/sometimes foul-smelling diarrhea",
+      "greasy stools that float",
+      "stomach cramps",
+      "gas"
+    ],
+    "description": "An infection in your small intestine caused by a microscopic parasite. Often caught from contaminated water.",
+    "severity": "moderate",
+    "precautions": [
+      "Drink plenty of water and ORS to prevent dehydration",
+      "Avoid spicy, oily, and heavy foods",
+      "Eat light, easy-to-digest food (like bananas, rice, toast)",
+      "Wash hands thoroughly before eating and after using the restroom"
+    ],
+    "medicines": [
+      {
+        "name": "Metronidazole",
+        "type": "OTC / Prescription",
+        "adultDose": "As directed on the label or by a doctor",
+        "childDose": "Consult a pediatrician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Until symptoms resolve"
+      }
+    ],
+    "whenToSeeDoctor": "If you have persistent diarrhea for more than a week.",
+    "emergencyAlert": false,
+    "dietAdvice": "BRAT diet (Bananas, Rice, Applesauce, Toast). Avoid dairy, caffeine, and spicy foods during flare-ups."
+  },
+  {
+    "disease": "Food Poisoning (Bacterial)",
+    "keywords": [
+      "food poisoning",
+      "bad food",
+      "sudden motions"
+    ],
+    "symptoms": [
+      "nausea",
+      "vomiting",
+      "watery or bloody diarrhea",
+      "abdominal pain",
+      "fever"
+    ],
+    "description": "Illness caused by eating contaminated food. Common culprits include Salmonella and E. coli.",
+    "severity": "moderate",
+    "precautions": [
+      "Drink plenty of water and ORS to prevent dehydration",
+      "Avoid spicy, oily, and heavy foods",
+      "Eat light, easy-to-digest food (like bananas, rice, toast)",
+      "Wash hands thoroughly before eating and after using the restroom"
+    ],
+    "medicines": [
+      {
+        "name": "ORS",
+        "type": "OTC / Prescription",
+        "adultDose": "As directed on the label or by a doctor",
+        "childDose": "Consult a pediatrician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Until symptoms resolve"
+      }
+    ],
+    "whenToSeeDoctor": "If you have high fever, bloody vomit/stool, or severe dehydration.",
+    "emergencyAlert": false,
+    "dietAdvice": "BRAT diet (Bananas, Rice, Applesauce, Toast). Avoid dairy, caffeine, and spicy foods during flare-ups."
+  },
+  {
+    "disease": "Acid Reflux / Acidity",
+    "keywords": [
+      "acidity",
+      "acid reflux",
+      "heartburn",
+      "burping"
+    ],
+    "symptoms": [
+      "burning sensation in the chest",
+      "sour taste in the mouth",
+      "burping",
+      "nausea"
+    ],
+    "description": "A condition where stomach acid flows back into the food pipe (esophagus), causing irritation.",
+    "severity": "mild",
+    "precautions": [
+      "Drink plenty of water and ORS to prevent dehydration",
+      "Avoid spicy, oily, and heavy foods",
+      "Eat light, easy-to-digest food (like bananas, rice, toast)",
+      "Wash hands thoroughly before eating and after using the restroom"
+    ],
+    "medicines": [
+      {
+        "name": "Antacids (Gelusil",
+        "type": "OTC / Prescription",
+        "adultDose": "As directed on the label or by a doctor",
+        "childDose": "Consult a pediatrician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Until symptoms resolve"
+      }
+    ],
+    "whenToSeeDoctor": "If symptoms occur more than twice a week.",
+    "emergencyAlert": false,
+    "dietAdvice": "BRAT diet (Bananas, Rice, Applesauce, Toast). Avoid dairy, caffeine, and spicy foods during flare-ups."
   }
 ]
