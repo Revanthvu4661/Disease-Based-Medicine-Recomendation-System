@@ -6667,5 +6667,1095 @@
     "whenToSeeDoctor": "At first signs of symptoms",
     "emergencyAlert": false,
     "dietAdvice": "Consult with healthcare provider for dietary recommendations."
+  },
+  {
+    "disease": "Sepsis (Blood Infection)",
+    "keywords": [
+      "sepsis",
+      "blood infection",
+      "septicemia"
+    ],
+    "symptoms": [
+      "high fever",
+      "rapid heart rate",
+      "confusion",
+      "shortness of breath"
+    ],
+    "description": "A life-threatening reaction to an infection in the blood.",
+    "severity": "severe",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Broad-spectrum antibiotics",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "IMMEDIATELY if you have high fever, rapid heartbeat, and confusion.",
+    "emergencyAlert": true,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Strep Throat",
+    "keywords": [
+      "strep throat",
+      "sore throat",
+      "swallowing pain"
+    ],
+    "symptoms": [
+      "throat pain",
+      "difficulty swallowing",
+      "red and swollen tonsils"
+    ],
+    "description": "A bacterial infection that may cause a sore, scratchy throat.",
+    "severity": "moderate",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Penicillin or Amoxicillin",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If a sore throat accompanied by tender, swollen lymph glands lasts longer than 48 hours.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Tonsillitis",
+    "keywords": [
+      "tonsillitis",
+      "tonsils",
+      "throat"
+    ],
+    "symptoms": [
+      "swollen tonsils",
+      "sore throat",
+      "difficulty swallowing",
+      "fever"
+    ],
+    "description": "Inflammation of the two oval-shaped pads of tissue at the back of the throat.",
+    "severity": "moderate",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Paracetamol",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If symptoms persist for more than 4 days or breathing becomes difficult.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Peptic Ulcer",
+    "keywords": [
+      "ulcer",
+      "stomach pain",
+      "acidity"
+    ],
+    "symptoms": [
+      "burning stomach pain",
+      "feeling of fullness",
+      "bloating",
+      "nausea"
+    ],
+    "description": "Open sores that develop on the inside lining of your stomach and the upper portion of your small intestine.",
+    "severity": "moderate",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "PPIs (Omeprazole)",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you have severe stomach pain, vomit blood, or have black, tarry stools.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "GERD",
+    "keywords": [
+      "gerd",
+      "heartburn",
+      "acid reflux"
+    ],
+    "symptoms": [
+      "heartburn",
+      "chest pain",
+      "difficulty swallowing",
+      "regurgitation"
+    ],
+    "description": "A digestive disease in which stomach acid or bile irritates the food pipe lining.",
+    "severity": "mild",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "PPIs (Pantoprazole)",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you have frequent or severe heartburn, or if you take over-the-counter medications for heartburn more than twice a week.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Gallstones",
+    "keywords": [
+      "gallstones",
+      "gallbladder",
+      "right upper pain"
+    ],
+    "symptoms": [
+      "sudden and rapidly intensifying pain in upper right abdomen",
+      "back pain",
+      "nausea"
+    ],
+    "description": "Hardened deposits of digestive fluid that can form in your gallbladder.",
+    "severity": "moderate",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Ursodiol (or surgery)",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you have intense abdominal pain, yellowing of skin/eyes, or high fever with chills.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Hyperthyroidism",
+    "keywords": [
+      "hyperthyroidism",
+      "overactive thyroid",
+      "weight loss"
+    ],
+    "symptoms": [
+      "unintentional weight loss",
+      "rapid heartbeat",
+      "irregular heartbeat",
+      "sweating"
+    ],
+    "description": "The production of too much thyroxine hormone by the thyroid gland.",
+    "severity": "moderate",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Methimazole",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you experience unexplained weight loss, rapid heartbeat, or unusual sweating.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Osteoarthritis",
+    "keywords": [
+      "osteoarthritis",
+      "joint pain",
+      "stiffness"
+    ],
+    "symptoms": [
+      "pain",
+      "stiffness",
+      "tenderness",
+      "loss of flexibility",
+      "grating sensation"
+    ],
+    "description": "The most common form of arthritis, occurring when the protective cartilage that cushions the ends of your bones wears down.",
+    "severity": "moderate",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Paracetamol",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If joint pain or stiffness doesn't go away.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Cataract",
+    "keywords": [
+      "cataract",
+      "cloudy vision",
+      "blurred"
+    ],
+    "symptoms": [
+      "clouded/blurred/dim vision",
+      "increasing difficulty with vision at night"
+    ],
+    "description": "A clouding of the normally clear lens of your eye.",
+    "severity": "moderate",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Surgery (Definitive)",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you notice changes in your vision, such as blurring or double vision.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Otitis Media (Ear Infection)",
+    "keywords": [
+      "ear infection",
+      "earache",
+      "otitis"
+    ],
+    "symptoms": [
+      "ear pain",
+      "tugging at ear",
+      "trouble sleeping",
+      "fever",
+      "fluid draining"
+    ],
+    "description": "An infection of the middle ear, the air-filled space behind the eardrum.",
+    "severity": "moderate",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Amoxicillin",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If symptoms last for more than a day, or if severe pain is present.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Eczema (Atopic Dermatitis)",
+    "keywords": [
+      "eczema",
+      "itchy skin",
+      "rash"
+    ],
+    "symptoms": [
+      "dry skin",
+      "itching",
+      "red to brownish-gray patches",
+      "small raised bumps"
+    ],
+    "description": "A condition that makes your skin red and itchy. It's common in children but can occur at any age.",
+    "severity": "mild",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Topical corticosteroids",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If the condition affects sleep or daily activities, or if you suspect a skin infection.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Acne",
+    "keywords": [
+      "acne",
+      "pimples",
+      "breakouts"
+    ],
+    "symptoms": [
+      "whiteheads",
+      "blackheads",
+      "small red tender bumps",
+      "pimples"
+    ],
+    "description": "A skin condition that occurs when your hair follicles become plugged with oil and dead skin cells.",
+    "severity": "mild",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Benzoyl peroxide",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If over-the-counter remedies haven't cleared your acne.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Measles",
+    "keywords": [
+      "measles",
+      "viral rash",
+      "koplik spots"
+    ],
+    "symptoms": [
+      "fever",
+      "dry cough",
+      "runny nose",
+      "sore throat",
+      "inflamed eyes",
+      "skin rash"
+    ],
+    "description": "A childhood infection caused by a virus. Once quite common, measles can now almost always be prevented with a vaccine.",
+    "severity": "moderate",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Fever reducers",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you think you or your child has been exposed to measles.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Mumps",
+    "keywords": [
+      "mumps",
+      "swollen cheeks",
+      "viral"
+    ],
+    "symptoms": [
+      "swollen painful salivary glands",
+      "fever",
+      "headache",
+      "muscle aches"
+    ],
+    "description": "A viral infection that primarily affects saliva-producing (salivary) glands that are located near your ears.",
+    "severity": "moderate",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Pain relievers",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you or your child has swollen salivary glands and fever.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Rubella",
+    "keywords": [
+      "rubella",
+      "german measles",
+      "rash"
+    ],
+    "symptoms": [
+      "mild fever",
+      "headache",
+      "stuffy nose",
+      "inflamed red eyes",
+      "enlarged lymph nodes",
+      "pink rash"
+    ],
+    "description": "A contagious viral infection best known by its distinctive red rash.",
+    "severity": "mild",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Fever reducers (Paracetamol)",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you suspect rubella, especially if pregnant.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Whooping Cough (Pertussis)",
+    "keywords": [
+      "whooping cough",
+      "pertussis",
+      "severe cough"
+    ],
+    "symptoms": [
+      "runny nose",
+      "nasal congestion",
+      "red watery eyes",
+      "fever",
+      "cough",
+      "'whoop' sound"
+    ],
+    "description": "A highly contagious respiratory tract infection. In many people, it's marked by a severe hacking cough followed by a high-pitched intake of breath.",
+    "severity": "severe",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Macrolide antibiotics",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If prolonged coughing spells cause vomiting, turning red/blue, or breathing difficulty.",
+    "emergencyAlert": true,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Lyme Disease",
+    "keywords": [
+      "lyme disease",
+      "tick bite",
+      "bullseye rash"
+    ],
+    "symptoms": [
+      "rash (erythema migrans)",
+      "fever",
+      "chills",
+      "fatigue",
+      "body aches"
+    ],
+    "description": "A tick-borne illness caused by the bacterium Borrelia burgdorferi.",
+    "severity": "moderate",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Doxycycline",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you've been bitten by a tick and experience symptoms.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Syphilis",
+    "keywords": [
+      "syphilis",
+      "STD",
+      "chancre"
+    ],
+    "symptoms": [
+      "small painless sore",
+      "rash",
+      "fever",
+      "swollen lymph nodes"
+    ],
+    "description": "A bacterial infection usually spread by sexual contact. The disease starts as a painless sore.",
+    "severity": "severe",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Penicillin G",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you notice an unusual sore or rash, particularly in the groin area.",
+    "emergencyAlert": true,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Gonorrhea",
+    "keywords": [
+      "gonorrhea",
+      "STD",
+      "discharge"
+    ],
+    "symptoms": [
+      "painful urination",
+      "pus-like discharge",
+      "pelvic pain"
+    ],
+    "description": "An infection caused by a sexually transmitted bacterium that infects both males and females.",
+    "severity": "moderate",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Ceftriaxone",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you notice a burning sensation during urination or unusual discharge.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Chlamydia",
+    "keywords": [
+      "chlamydia",
+      "STD"
+    ],
+    "symptoms": [
+      "painful urination",
+      "vaginal/penile discharge",
+      "pain during sex"
+    ],
+    "description": "A common sexually transmitted infection that may not cause symptoms.",
+    "severity": "moderate",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Azithromycin",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you have unusual discharge or pain during urination.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Liver Cirrhosis",
+    "keywords": [
+      "cirrhosis",
+      "liver damage",
+      "jaundice"
+    ],
+    "symptoms": [
+      "fatigue",
+      "easily bleeding",
+      "loss of appetite",
+      "nausea",
+      "swelling in legs"
+    ],
+    "description": "A late stage of scarring (fibrosis) of the liver caused by many forms of liver diseases.",
+    "severity": "severe",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Diuretics",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you have any of the signs or symptoms listed above.",
+    "emergencyAlert": true,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Appendicitis",
+    "keywords": [
+      "appendicitis",
+      "right lower pain"
+    ],
+    "symptoms": [
+      "sudden pain on right side of lower abdomen",
+      "nausea",
+      "vomiting",
+      "loss of appetite"
+    ],
+    "description": "An inflammation of the appendix, a finger-shaped pouch that projects from your colon.",
+    "severity": "severe",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Appendectomy (Surgery)",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "Seek immediate medical attention for sudden, severe abdominal pain.",
+    "emergencyAlert": true,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Endometriosis",
+    "keywords": [
+      "endometriosis",
+      "pelvic pain",
+      "painful periods"
+    ],
+    "symptoms": [
+      "painful periods",
+      "pain with intercourse",
+      "pain with bowel movements",
+      "excessive bleeding"
+    ],
+    "description": "An often painful disorder in which tissue similar to the tissue that normally lines the inside of your uterus grows outside your uterus.",
+    "severity": "moderate",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Pain relievers",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you have signs and symptoms that may indicate endometriosis.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Polycystic Ovary Syndrome (PCOS)",
+    "keywords": [
+      "PCOS",
+      "irregular periods",
+      "cysts"
+    ],
+    "symptoms": [
+      "irregular periods",
+      "excess androgen",
+      "polycystic ovaries"
+    ],
+    "description": "A hormonal disorder common among women of reproductive age.",
+    "severity": "moderate",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Birth control pills",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you have concerns about your menstrual periods or if you're experiencing infertility.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Osteomyelitis",
+    "keywords": [
+      "osteomyelitis",
+      "bone infection"
+    ],
+    "symptoms": [
+      "fever",
+      "swelling",
+      "warmth",
+      "and redness over the area of infection",
+      "pain"
+    ],
+    "description": "An infection in a bone. Infections can reach a bone by traveling through the bloodstream or spreading from nearby tissue.",
+    "severity": "severe",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Antibiotics (IV)",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you experience worsening bone pain along with a fever.",
+    "emergencyAlert": true,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Cellulitis",
+    "keywords": [
+      "cellulitis",
+      "skin infection",
+      "red skin"
+    ],
+    "symptoms": [
+      "red area of skin that tends to expand",
+      "swelling",
+      "tenderness",
+      "pain",
+      "warmth"
+    ],
+    "description": "A common, potentially serious bacterial skin infection.",
+    "severity": "moderate",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Antibiotics (Oral or IV)",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you have a red, swollen, tender rash that's changing rapidly, or if you have a fever.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Shingles (Herpes Zoster)",
+    "keywords": [
+      "shingles",
+      "nerve pain",
+      "rash"
+    ],
+    "symptoms": [
+      "pain",
+      "burning",
+      "numbness or tingling",
+      "sensitivity to touch",
+      "a red rash that begins a few days after the pain"
+    ],
+    "description": "A viral infection that causes a painful rash, usually appearing as a single stripe of blisters.",
+    "severity": "moderate",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Acyclovir",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you suspect shingles, especially if the rash is near an eye.",
+    "emergencyAlert": false,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Rabies",
+    "keywords": [
+      "rabies",
+      "animal bite",
+      "foaming"
+    ],
+    "symptoms": [
+      "fever",
+      "headache",
+      "nausea",
+      "vomiting",
+      "agitation",
+      "anxiety",
+      "confusion"
+    ],
+    "description": "A deadly virus spread to people from the saliva of infected animals.",
+    "severity": "severe",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Rabies vaccine",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "Seek immediate medical care if you're bitten by any animal.",
+    "emergencyAlert": true,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Tetanus",
+    "keywords": [
+      "tetanus",
+      "lockjaw",
+      "muscle spasms"
+    ],
+    "symptoms": [
+      "spasms and stiffness in your jaw muscles",
+      "stiffness of neck muscles",
+      "difficulty swallowing"
+    ],
+    "description": "A serious bacterial infection that causes painful muscle spasms and can lead to death.",
+    "severity": "severe",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Tetanus immune globulin",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you haven't had a booster within 10 years and have a deep or dirty wound.",
+    "emergencyAlert": true,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Diphtheria",
+    "keywords": [
+      "diphtheria",
+      "throat membrane",
+      "breathing difficulty"
+    ],
+    "symptoms": [
+      "a thick gray membrane covering your throat",
+      "sore throat",
+      "swollen glands",
+      "difficulty breathing"
+    ],
+    "description": "A serious bacterial infection that usually affects the mucous membranes of your nose and throat.",
+    "severity": "severe",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Diphtheria antitoxin",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "If you or your child has been exposed to someone with diphtheria.",
+    "emergencyAlert": true,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
+  },
+  {
+    "disease": "Anaphylaxis",
+    "keywords": [
+      "anaphylaxis",
+      "severe allergy",
+      "shock"
+    ],
+    "symptoms": [
+      "skin reactions",
+      "low blood pressure",
+      "constriction of airways",
+      "weak and rapid pulse"
+    ],
+    "description": "A severe, potentially life-threatening allergic reaction.",
+    "severity": "severe",
+    "precautions": [
+      "Follow doctor's advice carefully",
+      "Rest adequately and stay hydrated",
+      "Monitor your symptoms daily"
+    ],
+    "medicines": [
+      {
+        "name": "Epinephrine (Adrenaline)",
+        "type": "Prescription / OTC",
+        "adultDose": "As prescribed by a physician",
+        "childDose": "As prescribed by a physician",
+        "mgPerKg": null,
+        "frequency": "As prescribed",
+        "duration": "Follow full course"
+      }
+    ],
+    "whenToSeeDoctor": "Call emergency services immediately if you or someone else has a severe allergic reaction.",
+    "emergencyAlert": true,
+    "dietAdvice": "Maintain a balanced, nutritious diet. Drink plenty of water."
   }
 ]
