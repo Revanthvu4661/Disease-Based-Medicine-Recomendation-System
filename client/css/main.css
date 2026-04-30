@@ -1063,6 +1063,14 @@ body.light .brand-text h1 { color: var(--text); }
   .nav-title { display: none; }
   .nav-user { display: none; }
   .brand-text p { display: none; }
+  .notif-panel {
+    position: fixed;
+    top: 70px;
+    right: 16px;
+    left: 16px;
+    width: auto;
+    max-width: none;
+  }
 }
 
 @media (max-width: 480px) {
