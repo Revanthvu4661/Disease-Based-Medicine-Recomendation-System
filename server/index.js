@@ -21,6 +21,8 @@ const io = new Server(server, {
 
 // Security middleware — configure CSP to allow inline handlers and external CDNs
 app.use(helmet({
+  crossOriginOpenerPolicy: { policy: "same-origin-allow-popups" },
+  crossOriginEmbedderPolicy: false,
   contentSecurityPolicy: {
     directives: {
       defaultSrc:  ["'self'"],
@@ -46,7 +48,7 @@ app.use(helmet({
       imgSrc:      ["'self'", "data:", "https:", "blob:"],
       mediaSrc:    ["'self'", "blob:", "data:"],
       connectSrc:  ["'self'", "https://accounts.google.com"],
-      frameSrc:    ["https://accounts.google.com"],
+      frameSrc:    ["'self'", "https://accounts.google.com"],
       objectSrc:   ["'none'"],
     },
   },
