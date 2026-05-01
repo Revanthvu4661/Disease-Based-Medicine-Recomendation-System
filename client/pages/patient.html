@@ -335,13 +335,12 @@
         <div class="calc-form">
           <div class="form-row">
             <div class="form-group">
-              <label><i class="fas fa-pills"></i> Select Medicine</label>
-              <select id="calcMedicine">
-                <option value="paracetamol">Paracetamol (Fever/Pain)</option>
-                <option value="ibuprofen">Ibuprofen (Pain/Swelling)</option>
-                <option value="amoxicillin">Amoxicillin (Antibiotic)</option>
-                <option value="cetirizine">Cetirizine (Allergy)</option>
-              </select>
+              <label><i class="fas fa-pills"></i> Search Medicine</label>
+              <div class="search-input-wrap" style="position: relative;">
+                <input type="text" id="calcMedicineInput" placeholder="Type medicine name..." autocomplete="off"/>
+                <input type="hidden" id="calcMedicineKey" value=""/>
+                <div class="search-suggestions" id="medSuggestions"></div>
+              </div>
             </div>
             <div class="form-group">
               <label><i class="fas fa-weight"></i> Patient Weight (kg)</label>

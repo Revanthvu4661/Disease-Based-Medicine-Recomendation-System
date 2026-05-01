@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   await loadDiseaseList();
   loadHealthSummary();
   loadReminders();
+  setupMedAutocomplete();
 });
 
 
@@ -914,21 +915,68 @@ function handleChatKey(e) {
 }
 
 // ===== DOSAGE CALCULATOR =====
+const medDatabase = {
+  paracetamol: { name: 'Paracetamol (Fever/Pain)', mgPerKg: 15, maxDose: 1000, freq: 'Every 6 hours' },
+  ibuprofen: { name: 'Ibuprofen (Pain/Swelling)', mgPerKg: 10, maxDose: 400, freq: 'Every 8 hours' },
+  amoxicillin: { name: 'Amoxicillin (Antibiotic)', mgPerKg: 15, maxDose: 500, freq: 'Every 8 hours' },
+  cetirizine: { name: 'Cetirizine (Allergy/Cold)', mgPerKg: 0.25, maxDose: 10, freq: 'Once daily' },
+  azithromycin: { name: 'Azithromycin (Antibiotic)', mgPerKg: 10, maxDose: 500, freq: 'Once daily' },
+  ondansetron: { name: 'Ondansetron (Vomiting/Nausea)', mgPerKg: 0.15, maxDose: 8, freq: 'Every 8 hours' },
+  albendazole: { name: 'Albendazole (Deworming)', mgPerKg: 15, maxDose: 400, freq: 'Once' },
+  metronidazole: { name: 'Metronidazole (Stomach/Amoebic)', mgPerKg: 7.5, maxDose: 500, freq: 'Every 8 hours' },
+  levocetirizine: { name: 'Levocetirizine (Allergy)', mgPerKg: 0.1, maxDose: 5, freq: 'Once daily' },
+  diclofenac: { name: 'Diclofenac (Severe Pain)', mgPerKg: 1, maxDose: 50, freq: 'Every 8 hours' },
+  omeprazole: { name: 'Omeprazole (Acidity/Ulcer)', mgPerKg: 0.5, maxDose: 40, freq: 'Once daily' },
+  pantoprazole: { name: 'Pantoprazole (Acidity/GERD)', mgPerKg: 1, maxDose: 40, freq: 'Once daily' }
+};
+
+function setupMedAutocomplete() {
+  const input = document.getElementById('calcMedicineInput');
+  const suggestions = document.getElementById('medSuggestions');
+  const keyInput = document.getElementById('calcMedicineKey');
+
+  if (!input) return;
+
+  input.addEventListener('input', () => {
+    const q = input.value.toLowerCase().trim();
+    if (!q) { suggestions.classList.remove('show'); return; }
+
+    const matches = Object.entries(medDatabase).filter(([key, val]) =>
+      val.name.toLowerCase().includes(q)
+    );
+
+    if (!matches.length) { suggestions.classList.remove('show'); return; }
+
+    suggestions.innerHTML = matches.map(([key, val]) => `
+      <div class="suggestion-item" onclick="selectMedSuggestion('${key}', '${val.name.replace(/'/g, "\\'")}')">
+        <i class="fas fa-pills" style="color:var(--primary);margin-right:8px;"></i> ${val.name}
+      </div>
+    `).join('');
+    suggestions.classList.add('show');
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.search-input-wrap')) {
+      if(suggestions) suggestions.classList.remove('show');
+    }
+  });
+}
+
+window.selectMedSuggestion = function(key, name) {
+  document.getElementById('calcMedicineInput').value = name;
+  document.getElementById('calcMedicineKey').value = key;
+  document.getElementById('medSuggestions').classList.remove('show');
+};
+
 function calculateDosage() {
-  const medicineKey = document.getElementById('calcMedicine').value;
+  const medicineKey = document.getElementById('calcMedicineKey').value;
   const weight = parseFloat(document.getElementById('calcWeight').value);
   const age = parseInt(document.getElementById('calcAge').value);
 
+  if (!medicineKey) { showToast('Please select a medicine from the search suggestions', 'error'); return; }
   if (!weight || !age) { showToast('Please enter both patient weight and age', 'error'); return; }
 
-  const meds = {
-    paracetamol: { name: 'Paracetamol', mgPerKg: 15, maxDose: 1000, freq: 'Every 6 hours' },
-    ibuprofen: { name: 'Ibuprofen', mgPerKg: 10, maxDose: 400, freq: 'Every 8 hours' },
-    amoxicillin: { name: 'Amoxicillin', mgPerKg: 15, maxDose: 500, freq: 'Every 8 hours' },
-    cetirizine: { name: 'Cetirizine', mgPerKg: 0.25, maxDose: 10, freq: 'Once daily' }
-  };
-
-  const med = meds[medicineKey];
+  const med = medDatabase[medicineKey];
   const isChild = age < 18;
   const rawDose = med.mgPerKg * weight;
   const finalDose = isChild ? Math.min(rawDose, med.maxDose) : med.maxDose;
