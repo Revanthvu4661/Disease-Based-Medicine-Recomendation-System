@@ -556,11 +556,16 @@ function renderMonthlyChart(monthlyTrend) {
   charts.monthly = new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: monthlyTrend.map(m => m._id),
+      labels: monthlyTrend.map(m => {
+        if (!m._id) return 'Unknown';
+        const [year, month] = m._id.split('-');
+        const d = new Date(year, month - 1);
+        return d.toLocaleString('en-US', { month: 'short', year: 'numeric' });
+      }),
       datasets: [{
         label: 'Records',
         data: monthlyTrend.map(m => m.count),
-        backgroundColor: 'var(--primary)',
+        backgroundColor: '#f97316',
         borderRadius: 6
       }]
     },
@@ -583,7 +588,7 @@ function renderDiseaseChart(byDisease) {
       datasets: [{
         label: 'Count',
         data: byDisease.map(d => d.count).slice(0, 10),
-        backgroundColor: 'var(--secondary)',
+        backgroundColor: '#f97316',
         borderRadius: 6
       }]
     },
