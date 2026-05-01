@@ -303,7 +303,7 @@
 }
 
 /* History Grid */
-.history-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 18px; }
+.history-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; }
 
 .history-card {
   background: var(--bg-surface);
@@ -814,9 +814,10 @@
 }
 
 @media (max-width: 640px) {
-  .summary-stats { grid-template-columns: 1fr 1fr; }
+  .summary-stats { grid-template-columns: 1fr; }
   .chat-container { height: 470px; }
   .header-actions { flex-wrap: wrap; }
+  .history-grid { grid-template-columns: 1fr; }
 }
 
 /* ===== APPOINTMENT FORM ===== */

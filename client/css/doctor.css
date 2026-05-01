@@ -293,7 +293,7 @@
 /* Records Grid */
 .records-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 16px;
 }
 
@@ -507,8 +507,9 @@
 @media (max-width: 640px) {
   .disease-bar-row { grid-template-columns: 100px 1fr 40px; }
   .detail-grid { grid-template-columns: 1fr; }
-  .stats-grid { grid-template-columns: 1fr 1fr; }
+  .stats-grid { grid-template-columns: 1fr; }
   .modal-actions { flex-direction: column; }
+  .records-grid { grid-template-columns: 1fr; }
 }
 
 /* ===== SIDEBAR BADGE VARIANTS ===== */
