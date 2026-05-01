@@ -60,11 +60,11 @@
   <!-- Sidebar -->
   <aside class="sidebar">
     <div class="sidebar-menu">
-      <a href="#dashboard" class="sidebar-link active" data-section="dashboard" onclick="showSection('dashboard', this)">
-        <i class="fas fa-home"></i> <span>Health Summary</span>
-      </a>
-      <a href="#search" class="sidebar-link" data-section="search" onclick="showSection('search', this)">
+      <a href="#search" class="sidebar-link active" data-section="search" onclick="showSection('search', this)">
         <i class="fas fa-search-plus"></i> <span>Search Disease</span>
+      </a>
+      <a href="#dashboard" class="sidebar-link" data-section="dashboard" onclick="showSection('dashboard', this)">
+        <i class="fas fa-home"></i> <span>Health Summary</span>
       </a>
       <a href="#chat" class="sidebar-link" data-section="chat" onclick="showSection('chat', this)">
         <i class="fas fa-robot"></i> <span>AI Doctor Chat</span>
@@ -89,7 +89,7 @@
   <main class="main-content">
 
     <!-- ===== HEALTH SUMMARY ===== -->
-    <section id="section-dashboard" class="content-section">
+    <section id="section-dashboard" class="content-section hidden">
       <div class="section-header">
         <div>
           <h2><i class="fas fa-home"></i> Health Summary</h2>
@@ -185,7 +185,7 @@
     </section>
 
     <!-- ===== SEARCH DISEASE ===== -->
-    <section id="section-search" class="content-section hidden">
+    <section id="section-search" class="content-section">
       <div class="section-header">
         <div>
           <h2><i class="fas fa-microscope"></i> Disease & Symptom Search</h2>
