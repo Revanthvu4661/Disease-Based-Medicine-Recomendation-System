@@ -915,34 +915,33 @@ function handleChatKey(e) {
 
 // ===== DOSAGE CALCULATOR =====
 function calculateDosage() {
-  const medicine = document.getElementById('calcMedicine').value.trim();
-  const mgPerKg = parseFloat(document.getElementById('calcMgPerKg').value);
+  const medicineKey = document.getElementById('calcMedicine').value;
   const weight = parseFloat(document.getElementById('calcWeight').value);
   const age = parseInt(document.getElementById('calcAge').value);
-  const maxAdult = parseFloat(document.getElementById('calcMaxAdult').value);
-  const freq = document.getElementById('calcFrequency').value;
 
-  if (!weight || !mgPerKg) { showToast('Please enter at least weight and mg/kg values', 'error'); return; }
+  if (!weight || !age) { showToast('Please enter both patient weight and age', 'error'); return; }
 
-  const isChild = age && age < 18;
-  const rawDose = mgPerKg * weight;
-  const finalDose = maxAdult && !isChild ? Math.min(rawDose, maxAdult) : rawDose;
+  const meds = {
+    paracetamol: { name: 'Paracetamol', mgPerKg: 15, maxDose: 1000, freq: 'Every 6 hours' },
+    ibuprofen: { name: 'Ibuprofen', mgPerKg: 10, maxDose: 400, freq: 'Every 8 hours' },
+    amoxicillin: { name: 'Amoxicillin', mgPerKg: 15, maxDose: 500, freq: 'Every 8 hours' },
+    cetirizine: { name: 'Cetirizine', mgPerKg: 0.25, maxDose: 10, freq: 'Once daily' }
+  };
+
+  const med = meds[medicineKey];
+  const isChild = age < 18;
+  const rawDose = med.mgPerKg * weight;
+  const finalDose = isChild ? Math.min(rawDose, med.maxDose) : med.maxDose;
   const rounded = Math.round(finalDose * 10) / 10;
-  const freqMap = { once: '1x daily', twice: '2x daily', thrice: '3x daily', four: '4x daily', every6: 'Every 6 hrs', every8: 'Every 8 hrs' };
-  const freqCount = { once: 1, twice: 2, thrice: 3, four: 4, every6: 4, every8: 3 };
-  const dailyDose = rounded * (freqCount[freq] || 1);
 
   const result = document.getElementById('calcResult');
   result.classList.remove('hidden');
   result.innerHTML = `
-    <h3><i class="fas fa-calculator"></i> Dosage Result${medicine ? ' — ' + medicine : ''}</h3>
-    <div class="calc-row"><span class="calc-label">Patient Category</span><span class="calc-value">${isChild ? '👶 Child' : '🧑 Adult'} (${age ? age + ' yrs' : 'N/A'})</span></div>
+    <h3><i class="fas fa-calculator"></i> Dosage Result — ${med.name}</h3>
+    <div class="calc-row"><span class="calc-label">Patient Category</span><span class="calc-value">${isChild ? '👶 Child' : '🧑 Adult'} (${age} yrs)</span></div>
     <div class="calc-row"><span class="calc-label">Body Weight</span><span class="calc-value">${weight} kg</span></div>
-    <div class="calc-row"><span class="calc-label">mg/kg Dose</span><span class="calc-value">${mgPerKg} mg/kg</span></div>
-    <div class="calc-row"><span class="calc-label">Single Dose</span><span class="calc-value highlight">${rounded} mg</span></div>
-    ${maxAdult && !isChild && rawDose > maxAdult ? `<div class="calc-row"><span class="calc-label">⚠️ Max Adult Dose Applied</span><span class="calc-value">${maxAdult} mg</span></div>` : ''}
-    <div class="calc-row"><span class="calc-label">Frequency</span><span class="calc-value">${freqMap[freq]}</span></div>
-    <div class="calc-row"><span class="calc-label">Total Daily Dose</span><span class="calc-value highlight">${Math.round(dailyDose * 10) / 10} mg/day</span></div>
+    <div class="calc-row"><span class="calc-label">Estimated Single Dose</span><span class="calc-value highlight">${rounded} mg</span></div>
+    <div class="calc-row"><span class="calc-label">Recommended Frequency</span><span class="calc-value">${med.freq}</span></div>
     <div style="margin-top:14px;padding:10px 14px;background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.25);border-radius:8px;font-size:0.8rem;color:var(--warning);">
       <i class="fas fa-exclamation-triangle"></i> This is an estimate only. Always consult a qualified healthcare professional.
     </div>`;
